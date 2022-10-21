@@ -1,0 +1,317 @@
+:root {
+    --brand-color: #FFFFFF;
+    --brand-color-footer: #2F303A;
+    --barnd-color-aktyw: #2196F3;
+    --barnd-color-border1: #ECECEC;
+    --barnd-color-text: #212121;
+    --barnd-color-border2: #EEEEEE;
+    --brand-color-logo: #000000;
+    --brand-color-data: #757575;
+    --brand-color-btn: #F5F4FA;
+}
+*,
+*::after,
+*::before {
+
+    margin:0;
+    padding:0;
+}
+body {
+    color: var(--barnd-color-text);
+    margin: 0;
+}
+.header {
+    border-bottom: 1px solid var(--barnd-color-border1);
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.menu {
+    display: flex;
+    
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-aktyw);
+    text-decoration: none;
+    display: flex;
+    
+}
+.logo span {
+    color: var(--brand-color-logo);
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+.social-links .link {
+    margin-left: 50px;
+}
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0,02em;
+    color: var(--barnd-color-text);
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.social-links .link:active {
+    color: var(--barnd-color-aktyw);
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+.contact-data {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0,02em;
+    color: var(--brand-color-data);
+    text-decoration: none;
+    padding: 20px;
+}
+.contact {
+    list-style-type: none;
+}
+.contact .contact-data:active {
+    color: var(--barnd-color-aktyw);
+}
+.contact-data:hover {
+    color: var(--barnd-color-aktyw);
+}
+
+.section {
+    padding: 94px 0;
+}
+.filtr {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 50px;
+}
+.btn1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 121px;
+    margin-right: 8px;
+}
+.btn2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 93px;
+    margin-right: 8px;
+}
+.btn3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 114px;
+    margin-right: 8px;
+}
+.btn4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 91px;
+    margin-right: 8px;
+}
+.btn5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,6;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-text);
+    background-color: var(--brand-color-btn);
+    border-radius: 5px;
+    border: none;
+    padding: 6px 22px;
+    max-width: 121px;
+    margin-right: 8px;
+}
+.filtr .btn1:hover,
+.filtr .btn2:hover,
+.filtr .btn3:hover,
+.filtr .btn4:hover,
+.filtr .btn5:hover {
+    color: var(--brand-color);
+    background-color: var(--barnd-color-aktyw);
+}
+.pictures {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.pictures .look1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0,06em;
+    color: var(--barnd-color-text);
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+.pictures .look2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,9;
+    letter-spacing: 0,03em;
+    color: var(--brand-color-data);
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--barnd-color-border2);
+    
+}
+
+.filtr {
+    list-style-type: none;
+}
+
+.pictures {
+    list-style-type: none;
+}
+.btn {
+    cursor: pointer;
+}
+.btn1 {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: var(--brand-color-footer);
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0,03em;
+    color: var(--barnd-color-aktyw);
+    text-decoration: none;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    max-width: 145px;
+}
+.logo1 span1 {
+    color: var(--brand-color);
+}
+.adress-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0,03em;
+    color: var(--brand-color);
+    max-width: 246px;
+    margin-bottom: 9px;
+
+}
+.contact-footer {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 60px;
+}
+.info1 {
+    margin-bottom: 9px;
+}
+.contact-footer .info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0,03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    max-width: 231px;
+
+}
+.info:hover,
+.info:focus {
+    color: var(--barnd-color-aktyw);
+}
+.contact-footer .info:active {
+    color: var(--barnd-color-aktyw);
+}
+
+
+
+
