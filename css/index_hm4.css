@@ -16,7 +16,7 @@
     padding:0; 
 }
 body {
-    color: var(--brand-color-tekst);
+    color: var(--brand-color-text);
     margin: 0;
 }
 .header {
@@ -80,6 +80,9 @@ body {
 .contact {
     display: flex;
    
+}
+.contact-icon{
+    
 }
 .contact-data {
     font-family: 'Roboto';
@@ -261,6 +264,23 @@ body {
     color: var(--barnd-color-data);
     text-align: center;
   
+}
+.section5 {
+    background-color: var(--brand-color);
+    padding: 94px 0;
+}
+.title4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0,03em;
+    color:var(--brand-color-text);
+    max-width: 201px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 .footer {
     background-color: var(--brand-color-footer);
