@@ -8,6 +8,7 @@
     --brand-color-logo: #000000;
     --brand-color-data: #757575;
     --brand-color-btn: #F5F4FA;
+    --brand-color-background-icon3: rgba(255, 255, 255, 0.1);
 }
 *,
 *::after,
@@ -61,9 +62,7 @@ body {
     align-items: center;
     
 }
-.social-links .link {
-    margin-left: 50px;
-}
+
 .link {
     font-family: 'Roboto';
     font-style: normal;
@@ -73,15 +72,34 @@ body {
     letter-spacing: 0,02em;
     color: var(--barnd-color-text);
     text-decoration: none;
-    padding: 10px;
-    
+    margin-left: 46px;
 }
 .social-links .link:active {
     color: var(--barnd-color-aktyw);
 }
 .contact {
     display: flex;
-    align-items: center;
+
+}
+.contact-icon1 {
+    margin-right: 10px;
+    color: var(--barnd-color-data);
+    
+}
+.contact-icon1:hover,
+.contact-icon1:focus {
+    stroke: var(--barnd-color-aktyw);
+    stroke-width: 2px;
+}
+.contact-icon2 {
+    margin-left: 30px;
+    margin-right: 10px;
+    color: var(--barnd-color-data);
+}
+.contact-icon2:hover,
+.contact-icon2.focus {
+    stroke: var(--barnd-color-aktyw);
+    stroke-width: 2px;
 }
 .contact-data {
     font-family: 'Roboto';
@@ -92,7 +110,7 @@ body {
     letter-spacing: 0,02em;
     color: var(--brand-color-data);
     text-decoration: none;
-    padding: 20px;
+    padding: 32px 0;
 }
 .contact {
     list-style-type: none;
@@ -113,6 +131,7 @@ body {
     justify-content:center;
     padding-bottom: 50px;
 }
+
 .btn1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -128,6 +147,7 @@ body {
     padding: 6px 22px;
     max-width: 121px;
     margin-right: 8px;
+   
 }
 .btn2 {
     font-family: 'Roboto';
@@ -144,6 +164,7 @@ body {
     padding: 6px 22px;
     max-width: 93px;
     margin-right: 8px;
+    
 }
 .btn3 {
     font-family: 'Roboto';
@@ -160,6 +181,7 @@ body {
     padding: 6px 22px;
     max-width: 114px;
     margin-right: 8px;
+  
 }
 .btn4 {
     font-family: 'Roboto';
@@ -176,6 +198,7 @@ body {
     padding: 6px 22px;
     max-width: 91px;
     margin-right: 8px;
+
 }
 .btn5 {
     font-family: 'Roboto';
@@ -192,6 +215,7 @@ body {
     padding: 6px 22px;
     max-width: 121px;
     margin-right: 8px;
+
 }
 .filtr .btn1:hover,
 .filtr .btn2:hover,
@@ -200,6 +224,9 @@ body {
 .filtr .btn5:hover {
     color: var(--brand-color);
     background-color: var(--barnd-color-aktyw);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1),
+                0 1px 2px rgba(0, 0, 0, 0.08),
+                0 2px 2px rgba(0, 0, 0, 0.12);
 }
 .pictures {
     display: flex;
@@ -207,6 +234,11 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 30px;
+}
+.pictures > li:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.06),
+                0 4px 4px 0 rgba(0, 0, 0, 0.06),
+                0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .pictures .look1 {
@@ -219,6 +251,7 @@ body {
     color: var(--barnd-color-text);
     padding-top: 20px;
     padding-bottom: 4px;
+    padding-inline: 24px;
 }
 .pictures .look2 {
     font-family: 'Roboto';
@@ -230,7 +263,7 @@ body {
     color: var(--brand-color-data);
     padding-bottom: 20px;
     border-bottom: 1px solid var(--barnd-color-border2);
-    
+    padding-inline: 24px;
 }
 
 .filtr {
@@ -250,11 +283,15 @@ body {
 .footer {
     background-color: var(--brand-color-footer);
 }
-.footer-content {
+.footer-body {
+    display: flex;
+  
+}
+/* .footer-content {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-}
+} */
 .logo1 {
     font-family: 'Raleway';
     font-style: normal;
@@ -312,6 +349,40 @@ body {
     color: var(--barnd-color-aktyw);
 }
 
+.footer-content2-title5 {
+    width: 113px;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0,03%;
+    color: var(--brand-color);
+    margin-top: 72px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.footer-social {
+    list-style-type: none;
+    display: flex;
+    margin-left: 60px;
 
+}
+.box-icon3 {
+    max-width: 44px;
+    height: 44px;
+    background-color: var(--brand-color-background-icon3);
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 12px;
+
+}
+.icon3 {
+    --color1: #FFFFFF;
+}
+.box-icon3:hover,
+.box-icon3:focus {
+    background-color: var(--barnd-color-aktyw);
+}
 
 
