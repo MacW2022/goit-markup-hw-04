@@ -174,17 +174,12 @@ body {
     background-color: var(--brand-color);
     padding: 94px 0;
 }
-.section2-content {
-    display: flex;
-    justify-content: center;
-  
-}
 
 .text {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
 }
 .section2-box{
@@ -229,6 +224,7 @@ body {
 }
 .section3 {
     background-color: var(--brand-color);
+    padding-bottom: 94px;
 }
 
 .title2 {
@@ -253,7 +249,6 @@ body {
 }
 .picture-sec3 {
     max-width: 370px;
-    padding-bottom: 94px;
     
 }
 .section4 {
@@ -305,7 +300,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,19;
-    text-align: left;
     letter-spacing: 0,03em;
     color: var(--barnd-color-data);
     text-align: center;
