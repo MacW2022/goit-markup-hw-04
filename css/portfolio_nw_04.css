@@ -50,7 +50,7 @@ body {
     color: var(--barnd-color-aktyw);
     text-decoration: none;
     display: flex;
-    
+    margin-right: 93px;
 }
 .logo span {
     color: var(--brand-color-logo);
@@ -60,7 +60,7 @@ body {
     list-style-type: none;
     display: flex;
     align-items: center;
-    
+    gap: 46px 32px;
 }
 
 .link {
@@ -72,14 +72,14 @@ body {
     letter-spacing: 0,02em;
     color: var(--barnd-color-text);
     text-decoration: none;
-    margin-left: 46px;
+   
 }
 .social-links .link:active {
     color: var(--barnd-color-aktyw);
 }
 .contact {
     display: flex;
-
+    gap: 50px 32px;
 }
 .contact-icon1 {
     margin-right: 10px;
@@ -110,7 +110,7 @@ body {
     letter-spacing: 0,02em;
     color: var(--brand-color-data);
     text-decoration: none;
-    padding: 32px 0;
+    
 }
 .contact {
     list-style-type: none;
@@ -232,8 +232,15 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-basis: calc((100% - 60px) / 3);
     gap: 30px;
+}
+.border-look {
+    border-right: 1px solid var(--barnd-color-border2);
+    border-bottom: 1px solid var(--barnd-color-border2);
+    border-left: 1px solid var(--barnd-color-border2);
+    margin-top: -5px;
 }
 .pictures > li:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.06),
@@ -251,7 +258,7 @@ body {
     color: var(--barnd-color-text);
     padding-top: 20px;
     padding-bottom: 4px;
-    padding-inline: 24px;
+    padding-left: 24px;
 }
 .pictures .look2 {
     font-family: 'Roboto';
@@ -262,8 +269,7 @@ body {
     letter-spacing: 0,03em;
     color: var(--brand-color-data);
     padding-bottom: 20px;
-    border-bottom: 1px solid var(--barnd-color-border2);
-    padding-inline: 24px;
+    padding-left: 24px;
 }
 
 .filtr {
