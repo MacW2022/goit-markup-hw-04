@@ -86,21 +86,13 @@ body {
     color: var(--barnd-color-data);
     
 }
-.contact-icon1:hover,
-.contact-icon1:focus {
-    stroke: var(--barnd-color-aktyw);
-    stroke-width: 2px;
-}
+
 .contact-icon2 {
     margin-left: 30px;
     margin-right: 10px;
     color: var(--barnd-color-data);
 }
-.contact-icon2:hover,
-.contact-icon2.focus {
-    stroke: var(--barnd-color-aktyw);
-    stroke-width: 2px;
-}
+
 .contact-data {
     font-family: 'Roboto';
     font-style: normal;
@@ -112,13 +104,16 @@ body {
     text-decoration: none;
     
 }
+.contact-data:hover svg {
+    --color2: var(--barnd-color-aktyw);
+}
+.contact-data:hover {
+    color: var(--barnd-color-aktyw);
+}
 .contact {
     list-style-type: none;
 }
 .contact .contact-data:active {
-    color: var(--barnd-color-aktyw);
-}
-.contact-data:hover {
     color: var(--barnd-color-aktyw);
 }
 
