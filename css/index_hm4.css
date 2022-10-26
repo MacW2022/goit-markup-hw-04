@@ -86,21 +86,13 @@ body {
     color: var(--barnd-color-data);
     
 }
-.contact-icon1:hover,
-.contact-icon1:focus {
-    stroke: var(--brand-color-hover);
-    stroke-width: 2px;
-}
+
 .contact-icon2 {
     margin-left: 30px;
     margin-right: 10px;
     color: var(--barnd-color-data);
 }
-.contact-icon2:hover,
-.contact-icon2.contact-data:active {
-    stroke: var(--brand-color-hover);
-    stroke-width: 2px;
-}
+
 .contact-data {
     font-family: 'Roboto';
     font-style: normal;
@@ -112,18 +104,26 @@ body {
     text-decoration: none;
 
 }
+.contact-data:hover svg {
+    --color3: var(--brand-color-hover);
+}
+.contact-data:hover {
+    color: var(--brand-color-hover);
+}
+/* .contact a:hover {
+    color: var(--brand-color-hover);
+    --color3: var(--brand-color-hover);
+} */
 .contact {
     list-style-type: none;
 }
 .contact .contact-data:active {
     color: var(--brand-color-hover);
 }
-.contact-data:hover {
-    color: var(--brand-color-hover);
-}
+
 
 .section1 {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(170, 170, 217, 0.4)), url(../images/tłosekcja1.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tłosekcja1.jpg);
     background-size: contain;
     max-width: 1600px;
     margin: 0 auto;
@@ -193,11 +193,11 @@ body {
    margin-block: 25px;
    
 }
-.text-icon:hover,
+/* .text-icon:hover,
 .text-icon:focus {
     stroke: var(--brand-color-hover);
     stroke-width: 1px;
-}
+} */
 .text-h3 {
     font-family: 'Roboto';
     font-style: normal;
@@ -352,6 +352,7 @@ body {
     justify-content: space-around;
     
 }
+
 .sec5-picture {
     width: 170px;
     height: 92px;
@@ -360,22 +361,22 @@ body {
     display: block;
 }
 
-.sec5-picture:hover,
-.sec5-picture:focus {
-    border-color: var(--brand-color-hover);
-    stroke-width: 1px;
+.sec5-picture:hover svg {
+    --color1: var(--brand-color-hover);
 }
+.sec5-picture:hover {
+    border-color: var(--brand-color-hover);
+}
+/* .section5-pictures .sec5-picture:hover {
+    border-color: var(--brand-color-hover);
+    --color1: var(--brand-color-hover);
+} */
 .pct1 {
     margin-inline: 32px;
     margin-top: 18px;
     margin-bottom: 14px;
 }
-.pct1:hover,
-.pct1:focus {
-    stroke: var(--brand-color-hover);
-    stroke-width: 1px;
 
-}
 .footer {
     background-color: var(--brand-color-footer);
 }
