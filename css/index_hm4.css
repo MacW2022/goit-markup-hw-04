@@ -33,7 +33,7 @@ body {
 }
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 24px 0;
 }
@@ -80,12 +80,11 @@ body {
 .contact {
     display: flex;
     gap: 50px 32px;
+    
 }
 .contact-icon1 {
     margin-right: 10px;
     color: var(--barnd-color-data);
-    background-position: 50% 50%;
-    background-size: cover;
     
 }
 
@@ -93,8 +92,7 @@ body {
     margin-left: 30px;
     margin-right: 10px;
     color: var(--barnd-color-data);
-    background-position: 50% 50%;
-    background-size: cover;
+    
 }
 
 .contact-data {
@@ -106,8 +104,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--barnd-color-data);
     text-decoration: none;
-
+    
 }
+
 .contact-data:hover svg {
     --color2: var(--brand-color-hover);
 }
@@ -239,7 +238,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    max-width: 352px;
+    /* max-width: 352px; */
     margin: 0 auto;
     padding-bottom: 50px;
 }
@@ -267,7 +266,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-text);
-    max-width: 210px;
+    /* max-width: 210px; */
     margin: 0 auto;
     padding-bottom: 50px;
 }
@@ -331,7 +330,7 @@ body {
 .box-icon2:hover,
 .box-icon2:focus {
     background-color: var(--brand-color-hover);
-    --color1:var(--brand-color);
+    --color3:var(--brand-color);
 }
 .section5 {
     background-color: var(--brand-color);
@@ -366,7 +365,7 @@ body {
 }
 
 .sec5-picture:hover svg {
-    --color1: var(--brand-color-hover);
+    --color3: var(--brand-color-hover);
 }
 .sec5-picture:hover {
     border-color: var(--brand-color-hover);
@@ -483,7 +482,7 @@ body {
 
 }
 .icon3 {
-    --color1: #FFFFFF;
+    --color3: var(--brand-color);
 }
 .box-icon3:hover,
 .box-icon3:focus {

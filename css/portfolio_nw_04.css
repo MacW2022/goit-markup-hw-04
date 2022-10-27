@@ -32,7 +32,7 @@ body {
 }
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 24px 0;
 }
@@ -228,8 +228,10 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-basis: calc((100% - 60px) / 3);
     gap: 30px;
+}
+.pictures > li {
+    flex-basis: calc((100% - 60px) / 3);
 }
 .border-look {
     border-right: 1px solid var(--barnd-color-border2);
@@ -379,7 +381,7 @@ body {
 
 }
 .icon3 {
-    --color1: #FFFFFF;
+    --color3: var(--brand-color);
 }
 .box-icon3:hover,
 .box-icon3:focus {
